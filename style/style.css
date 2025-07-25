@@ -298,19 +298,16 @@
 
 
 
-
-
-
-
 /* mobile Section */
 
 @media screen and (max-width:576px) {
-
-    .navigation{
+.navigation{
         margin-right: 10px;
         justify-content: space-around;
         max-width: 361px;
         max-height: 68px;
+        margin: 0 auto;
+        align-items: center;
 }
 .logo{
     max-width:63px ;
@@ -323,10 +320,6 @@
 .home ,.shop ,.about{
     visibility: hidden;
 }
-
-
-
-
 
     /* /* banner section */
     
