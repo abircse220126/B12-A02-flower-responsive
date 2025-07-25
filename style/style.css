@@ -1,7 +1,7 @@
-body *{
+/* body *{
     border: 1px solid red;
-    text-align: center;
-}
+   
+} */
 
 /* common Style */
 .disply-flex{
@@ -208,7 +208,74 @@ body *{
 .latest-deals-p{
     margin-top: 0px;
 }
-
+.join-section{
+    width: 100%;
+    height: 533px;
+    background-image:url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    text-align: center;
+}
+.join-section h2{
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 10rem;
+    
+}
+.join-section input{
+  width:25%;
+  height: 7%;
+}
+   
+.join-section .s-button{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    margin-left: -5px;
+    width: 10%;
+    height: 7.8%;
+}
+.s-button a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-section{
+    width: 100%;
+    max-height: 348px;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+.footer-image{
+    max-width: 359px;
+    max-height: 179px;
+}
+.f-image{
+    margin-bottom: 0;
+}
+.footer-image h2{
+    text-align: center;
+    margin-top: 0;
+}
+.footer-list{
+    max-width: 1020px;
+    max-height: 248px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 150px;
+    color: #6B7280;
+    font-weight: 600;
+}
+.lists{
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr);
+}
+.soccial-icon{
+    gap: 20px;
+}
+.x{
+    margin-top: 10px;
+}
 
 
 
@@ -267,6 +334,46 @@ body *{
 /* latest -deals */
 .latest-deals{
      margin-top: 28.125rem;
+}
+
+/* join section */
+.join-section{
+    position: relative;
+    background-size:contain;
+}
+.join-section h2{
+    font-size: 1.125rem;
+    margin-top: 50px;   
+}
+.join-section input{
+    padding: 5px 50px;
+}
+.join-section .s-button{
+    padding:7px 40px ;
+}
+.join-section input{
+  width:30%;
+  height: 5%;
+}
+.join-section .s-button{
+    width: 30%;
+    height: 7,6%;
+}
+   
+/* Footer Section */
+.footer-section{
+    flex-direction: column;
+    height: auto;
+    margin-top: -300px;
+}
+.footer-list{
+    height: auto;
+    display: grid;
+    grid-template-columns:repeat(1 , 1fr);
+    margin-top: 35px;
+}
+.soccial-icon{
+    margin-top: 300px;
 }
 
 
