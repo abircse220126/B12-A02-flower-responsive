@@ -44,8 +44,8 @@
     align-items: center;
 }
 .logo{
-    max-width:8.4375rem ;
-    max-height:5.125rem;
+    max-width:135px ;
+    max-height:82px;
 }
 .logo img{
     width: 100%;
@@ -72,7 +72,7 @@
     max-height: 461px;
     margin: 0 auto;
     align-items:end;
-    margin-top: 120px;
+    margin-top: 80px;
     
 }
 .banner-content{
@@ -177,10 +177,26 @@
     max-width: 540px;
     max-height: 597px;
 }
-.plant-lover-image img{
+.plant-lover-image .store-img{
     width: 100%;
     height: 100%;
 }
+
+.plant-lover-image .badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    left: 330px;
+    top: -720px;
+    
+    
+
+}
+
+
+
+
+
 .plant-lover-contant{
     max-width: 540px;
     max-height: 521px;
@@ -222,6 +238,9 @@
     color: #FFFFFF;
     margin-bottom: 0;
     margin-top: 10rem;
+    padding-top: 170px;
+   
+    /
     
 }
 .join-section input{
@@ -290,15 +309,17 @@
     .navigation{
         margin-right: 10px;
         justify-content: space-around;
+        max-width: 361px;
+        max-height: 68px;
 }
-/* .logo{
-    max-width:3.9375rem ;
-    max-height:2.375rem;
+.logo{
+    max-width:63px ;
+    max-height:38px;
 }
 .logo img{
     max-width: 100%;
     max-height: 100%;
-} */
+}
 .home ,.shop ,.about{
     visibility: hidden;
 }
@@ -351,6 +372,10 @@
 .plant-lover-contant ul{
     margin-top: -30px;
 }
+.plant-lover-image .badge{
+    position: absolute;
+    visibility: hidden;
+}
 
 /* latest -deals */
 .latest-deals{
@@ -365,7 +390,7 @@
 }
 .join-section h2{
     font-size: 1.125rem;
-    margin-top: 15px;   
+    margin-top: -170px;   
 }
 .join-section input{
     padding: 5px 50px;
