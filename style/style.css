@@ -4,10 +4,19 @@
 } */
 
 /* common Style */
+
 .disply-flex{
     display: flex;
-    /* align-items: center; */
 }
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .list-color1{
     color: #252432;
 }
@@ -65,6 +74,9 @@
 .add-to-card img{
     width: 100%;
 }
+
+/* banneer section */
+
 .banner-section{
     /* max-width:71.25rem;
     max-height: 28.8125rem; */
@@ -299,32 +311,26 @@
 
 
 /* mobile Section */
+body *{
+    padding-left: 2px;
+}
 
 @media screen and (max-width:576px) {
-.navigation{
-        margin-right: 10px;
-        justify-content: space-around;
-        max-width: 361px;
-        max-height: 68px;
-        margin: 0 auto;
-        align-items: center;
-}
-.logo{
-    max-width:63px ;
-    max-height:38px;
-}
-.logo img{
-    max-width: 100%;
-    max-height: 100%;
-}
+
+    .navigation .nav-list{
+        padding-right: 20px;
+        justify-content: space-evenly;
+    }
+
 .home ,.shop ,.about{
     visibility: hidden;
 }
 
-    /* /* banner section */
+     /* banner section */
     
     .banner-section {
         flex-direction: column-reverse;
+        margin-top: -1px;
     }
     .banner-content h1{
     font-size:2rem;
